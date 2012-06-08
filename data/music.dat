@@ -1,0 +1,6 @@
+{
+[Funk,Rock], [Rock];
+[Funk,Rock,Jazz], [Funk], [Funk,Rock];
+[], [Jazz], [Jazz];
+[Jazz];
+}
