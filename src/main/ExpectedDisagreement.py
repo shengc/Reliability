@@ -121,14 +121,6 @@ class ExpectedDisagreement(object):
         
         delta = Util.distance(item1, item2)
         
-        """
-        print "ratio1 = ", ratio1
-        print "ratio2 = ", ratio2
-        print "numerator =", numerator
-        print "denominator = ", denominator
-        print "delta = ", delta
-        """
-        
         return ratio1 * ratio2 * numerator * delta / denominator
     
     def get_disagreement(self, p, n, d):
